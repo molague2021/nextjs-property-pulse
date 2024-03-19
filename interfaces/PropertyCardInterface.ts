@@ -15,9 +15,9 @@ export interface Property {
   square_feet: number;
   amenities: string[];
   rates: {
-    weekly: number;
-    monthly: number;
-    nightly: number;
+    weekly?: number;
+    monthly?: number;
+    nightly?: number;
   };
   seller_info: {
     name: string;
@@ -25,7 +25,7 @@ export interface Property {
     phone: string;
   };
   images: string[];
-  is_featured: false;
-  createdAt: Date;
-  updatedAt: Date;
+  is_featured: boolean;
+  createdAt: Date | string;
+  updatedAt: Date | string;
 }

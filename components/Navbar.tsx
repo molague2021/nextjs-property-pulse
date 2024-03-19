@@ -4,8 +4,8 @@ import React, { useState } from 'react';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
-import logo from '@/assets/images/logo-white.png';
-import profileImage from '@/assets/images/profile.png';
+import logo from '../assets/images/logo-white.png';
+import profileImage from '../assets/images/profile.png';
 import { FaGoogle } from 'react-icons/fa';
 
 const Navbar = () => {
