@@ -4,7 +4,7 @@ import Hero from '../components/Hero/Hero';
 import InfoBoxes from '../components/InfoBoxes/InfoBoxes';
 import HomeProperties from '../components/HomeProperties/HomeProperties';
 
-const HomePage = () => {
+const HomePage = async () => {
   return (
     <>
       <Hero />
